@@ -5,10 +5,11 @@ body {
 
 h1 {
   color: blue;
+  margin: 40px
 }
 
 p {
-  color: red;
+  color: rgb(119, 103, 4);
 }
 
 .d-flex {
@@ -35,20 +36,21 @@ img {
 }
 
 th {
-  background-color: rgb(129, 215, 222); 
+  background-color: rgb(119, 103, 4); 
   font-style: bold;
-  color: blue;  
+  color: rgba(0, 0, 3, 0.964);  
 }
 
 
 
 tr {
-  background-color: #cdced4;
+  background-color: #f9f9fb;
 }
 
 table {
   border-collapse: collapse;
   width: 25%;
+  margin: 40px;
 }
 
 table,
