@@ -1,24 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Top Three Breaking News</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Recent and Reliable News articles">
+    <title>Lab 2|Home</title>
+  </head>
+  <body style="background-color: azure">
+    <link rel="stylesheet" href="styles.css" />
 
-    <h2>A disruptive Thanksgiving winter storm is coming with a side of the coldest air in months</h2>
+    <header>
+      <nav>
+        <ul class="d-flex justify-between">
+          <li><a href="index.html">Home</a></li>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quam maiores fugit beatae ea? Pariatur placeat inventore totam obcaecati veniam sit error incidunt esse animi quidem, eveniet, aperiam natus vel.</p>
+          <li><a href="sports.html">Sports News</a></li>
 
-    <h2>Trump vows to impose 25% tariff on goods from Mexico and Canada on Day 1</h2>
+          <li><a href="economy.html">Economy</a></li>
+        </ul>
+      </nav>
+      <h1 style="margin: 40px">Top Three Breaking News</h1>
+    </header>
+    <main class="d-flex gap-3">
+      <!--first section-->
+      <section>
+        <h2 class="w-300 m-2" ; style="margin: 50px">
+          A disruptive Thanksgiving winter storm is coming with a side of the
+          coldest air in months.
+        </h2>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, molestiae eligendi dolore sit omnis sunt et qui. Exercitationem perspiciatis magnam accusantium! Accusantium dolor omnis doloremque beatae! Quasi delectus quo nihil.</p>
+        <img
+          src="https://images.foxtv.com/static.fox5ny.com/www.fox5ny.com/content/uploads/2024/11/932/524/mon-wed-rain.jpg?ve=1&tl=1"
+          alt="Arial view of storm"
+          width="300"
+          height="150"
+        />
 
-    <h2>The US is on the cusp of a nuclear renaissance. One problem: Americans are terrified of the waste</h2>
-    
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, atque iste? Iure maiores assumenda in quis quam expedita ducimus! Ab, consequuntur. Veniam exercitationem necessitatibus sapiente, omnis perferendis earum libero delectus?</p>
+        <p class="w-300" ; style="margin: 50px">
+          Mother Nature is about to serve up some unappetizing conditions for
+          the millions of Thanksgiving travelers: sloppy weather, snow, the
+          coldest temperatures since February and a
+          <strong>potentially</strong> disruptive storm are on the way through
+          the holiday weekend.
+        </p>
+      </section>
+      <!--second section-->
+      <section>
+        <h2 class="w-300" ; style="margin: 50px">
+          Trump vows to impose 25% tariff on goods from Mexico and Canada on Day
+          1.
+        </h2>
 
-</body>
+        <img
+          src="https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/11/672/378/trump-7.jpg?ve=1&tl=1"
+          alt="President Donald Trump"
+          width="300"
+          height="150"
+        />
+
+        <p class="w-300" ; style="margin: 50px">
+          President-elect Trump's plan to impose a 25% tariff on all goods from
+          Mexico and Canada while hiking the levies on products from China will
+          drive up costs for Americans, <em>Goldman Sachs warned this week.</em>
+        </p>
+      </section>
+
+      <!--third section-->
+      <section>
+        <h2 class="w-300" ; style="margin: 50px">
+          The US is on the cusp of a nuclear renaissance. One problem: Americans
+          are <strong>terrified</strong> of the waste.
+        </h2>
+
+        <img
+          src="https://media.cnn.com/api/v1/images/stellar/prod/001-bv-231214-0004-copy.JPG?q=w_1160,c_fill/f_webp"
+          alt="Nuclear plants"
+          width="300"
+          height="150"
+        />
+
+        <p class="w-300" ; style="margin: 40px">
+          This is one of several misconceptions about nuclear energy: America’s
+          nuclear waste is not buried in a mountain or tucked at the bottom of a
+          deep, rocky cavern. It is sealed away in coffin-like casks and spread
+          out among more than 50 locations around the country.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p style="color: black">
+        Copyright &copy; Alysia Monroe<span id="year">2024</span>
+      </p>
+    </footer>
+  </body>
 </html>
+
+<!-- add this on section in index (the gap)-->
